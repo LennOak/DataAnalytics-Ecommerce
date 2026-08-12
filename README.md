@@ -22,11 +22,11 @@ Created a report structured around three key business areas:
 
 ---
 
-## 💡 Key Findings & Business Insights
+## Key Findings & Business Insights
 
 * **Financial Impact:** Freight accounts for **16.57%** of total company revenue ($2.25M out of $13.59M), signaling an opportunity to renegotiate carrier contracts.
 * **Logistics Bottleneck:** While the overall delay rate is 6.45%, late deliveries suffer an average delay of **10.5 days past the estimated delivery date**. The states facing the highest delay rates are **BA, RJ, and ES**.
-* ⭐ **Customer Impact:** The data confirms a strong correlation between delivery delays and 1-star / 2-star reviews.
+* **Customer Impact:** The data confirms a strong correlation between delivery delays and 1-star / 2-star reviews.
 
 ---
 
