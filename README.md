@@ -41,13 +41,13 @@ Created an executive report structured around three key business areas:
 ## 📷 Dashboard Overview
 
 ### 1. Financial Performance
-![Financial Dashboard](assets/finance_dashboard.png)
+![Financial Dashboard](images/finance_dashboard.png)
 
 ### 2. Logistics & Operations
-![Logistics Dashboard](assets/logistic.png)
+![Logistics Dashboard](images/logistic.png)
 
 ### 3. Customer Experience
-![Customer Experience Dashboard](assets/customer.png)
+![Customer Experience Dashboard](images/customer.png)
 
 ---
 
