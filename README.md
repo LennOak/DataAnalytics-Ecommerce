@@ -79,7 +79,8 @@ Created an executive report structured around three key business areas:
 | `Olist_Analytics_Dashboard.pbix` | Power BI interactive report |
 
 ---
-How to Run and Explore the Project Locally
+
+## How to Run and Explore the Project Locally
 Follow these step-by-step instructions to set up the environment, run the pipeline, and explore the complete analysis:
 
 ### 1. Prerequisites & Environment Setup
