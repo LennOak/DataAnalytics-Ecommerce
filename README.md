@@ -32,6 +32,22 @@ Created a report structured around three key business areas:
 * **Logistics Bottleneck:** While the overall delay rate is 6.45%, late deliveries suffer an average delay of **10.5 days past the estimated delivery date**. The states facing the highest delay rates are **BA, RJ, and ES**.
 * **Customer Impact:** The data confirms a strong correlation between delivery delays and 1-star / 2-star reviews.
 
+## Dashboard Overview
+
+![Finance Dashboard](https://1drv.ms/i/c/487ca23884765fb8/IQB9mrRPcz6kRq-uAibBWkU7ARF_G7n8sWmScE3DEcAYzU4?e=OaOeRa)
+![Logistics Dashboard](https://1drv.ms/i/c/487ca23884765fb8/IQDOdyLlbajsSpIXtYhyImoBATRAaQ_9mAnaNp5qT7WZdI8?e=imWP3y)
+![Customer Experience](https://1drv.ms/i/c/487ca23884765fb8/IQDUTANEQ3OjS7fiwodM9W5QAWkyn4T8Ovstco1FQClGeAY?e=8nxcey)
+---
+
+## Repository Structure
+
+| Directory / File | Description |
+| :--- | :--- |
+| `data_raw/` | Raw Olist CSV datasets |
+| `notebooks/` | Exploratory data analysis & step-by-step ETL logic |
+| `scripts/` | Automated Python ETL script & DB configuration |
+| `Olist_Analytics_Dashboard.pbix` | Power BI interactive report |
+
 ---
 
 How to Run and Explore the Project Locally
