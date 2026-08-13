@@ -43,7 +43,7 @@ Building this project helped me realize that **data analytics is not just about 
 How to Run and Explore the Project Locally
 Follow these step-by-step instructions to set up the environment, run the pipeline, and explore the complete analysis:
 
-1. Prerequisites & Environment Setup
+# ##1. Prerequisites & Environment Setup
 Clone the Repository:
 git clone (https://github.com/LennOak/DataAnalytics-Ecommerce).git
 cd DataAnalytics-Ecommerce
@@ -60,7 +60,7 @@ source venv/bin/activate
 Install Dependencies:
 pip install -r requirements.txt
 
-2. Database Configuration (SQL Server)
+# ##2. Database Configuration (SQL Server)
 Ensure SQL Server and SQL Server Management Studio (SSMS) (or Azure Data Studio / DBeaver) are installed and running.
 
 Create a local database named Olist_Analytics.
@@ -70,7 +70,7 @@ SERVER = 'config.DB_SERVER'
 DATABASE = 'config.DB_NAME'
 DRIVER = 'ODBC Driver 17 for SQL Server'
 
-3. Run the Automated ETL Pipeline
+# ##3. Run the Automated ETL Pipeline
 Ensure the raw Olist CSV datasets are located inside the data_raw/ directory.
 
 Execute the main Python ETL script to clean data, engineer metrics, and load processed tables into SQL Server:
@@ -79,13 +79,13 @@ python scripts/etl_pipeline.py
 Alternatively, open Jupyter Notebook to inspect the transformation logic step-by-step:
 jupyter notebook notebooks/01_data_cleaning_etl.ipynb
 
-4. Verify Database Records
+# ##4. Verify Database Records
 Open your SQL client (SSMS) and connect to Olist_Analytics.
 
 Run a quick validation query to confirm table creation and data loading:
 SELECT TOP 10 * FROM vw_fact_orders;
 
-5. Access the Power BI Dashboard
+# ##5. Access the Power BI Dashboard
 Install Power BI Desktop.
 
 Open the file Olist_Analytics_Dashboard.pbix located in the repository.
