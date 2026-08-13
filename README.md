@@ -96,7 +96,7 @@ SELECT TOP 10 * FROM vw_fact_orders;
 
 5. Select the local SQL Server data source and click Change Source.
 
-6.Update the Server and Database names to match your local setup.
+6. Update the Server and Database names to match your local setup.
 
 7. Click Apply Changes and Refresh to populate the report.
 
