@@ -14,6 +14,17 @@ The main goal was to answer real business questions: **Where is the operation lo
 
 ---
 
+## Business Problem & Context
+
+An e-commerce marketplace like Olist faces complex operational challenges across seller dispatch delays, carrier delivery bottlenecks, and high freight costs. These operational friction points directly impact customer satisfaction (CSAT) and result in negative review scores, customer churn, and unexpected logistics expenses.
+
+To address these challenges, the analysis was designed to answer three core business questions:
+1. **Financial Optimization:** Where are the primary cost drivers in freight, and how does shipping affect overall revenue?
+2. **Operational Bottlenecks:** Which geographic regions suffer from the highest delivery delay rates, and at what stage of the shipping process do delays occur?
+3. **Customer Experience Impact:** What is the quantifiable impact of shipping delays on customer review ratings (1 to 5 stars)?
+
+---
+
 ## What I Built
 
 ### 1. Data Engineering & Cleaning
