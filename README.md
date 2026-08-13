@@ -1,12 +1,16 @@
+# Olist E-Commerce Analytics: From Raw Data to Insights
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-# Olist E-Commerce Analytics
 
 ## Project Introduction
+
 Hello! This is a hands-on project where I aimed to simulate the full end-to-end workflow of a real-world data analyst. I used Olist's public e-commerce dataset to practice building an automated Data Extraction, Transformation, and Loading (ETL) pipeline in Python, modeling data in SQL Server, and designing an interactive dashboard in Power BI.
 
 The main goal was to answer real business questions: **Where is the operation losing money? Why are customers dissatisfied?**
+
+> **Data Source:** [Olist E-Commerce Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
 ---
 
@@ -19,10 +23,10 @@ Before creating any visuals, I had to clean and organize the raw data:
 * **Automated Data Loading:** Connected Python to SQL Server using `SQLAlchemy`, uploading data in batches to optimize system memory usage.
 
 ### 2. Interactive Dashboard
-Created a report structured around three key business areas:
-1. **Financial:** Revenue, average order value (AOV), and freight cost impact.
-2. **Logistics:** On-time vs. delayed delivery rates and regional shipping bottlenecks.
-3. **CX (Customer Experience):** Analyzing how delivery delays impact review scores.
+Created an executive report structured around three key business areas:
+* **Financial:** Revenue, average order value (AOV), and freight cost impact.
+* **Logistics:** On-time vs. delayed delivery rates and regional shipping bottlenecks.
+* **CX (Customer Experience):** Analyzing how delivery delays impact review scores.
 
 ---
 
@@ -32,11 +36,19 @@ Created a report structured around three key business areas:
 * **Logistics Bottleneck:** While the overall delay rate is 6.45%, late deliveries suffer an average delay of **10.5 days past the estimated delivery date**. The states facing the highest delay rates are **BA, RJ, and ES**.
 * **Customer Impact:** The data confirms a strong correlation between delivery delays and 1-star / 2-star reviews.
 
-## Dashboard Overview
+---
 
-![Finance Dashboard](Finance_Dashboard.PNG)
-![Logistics Dashboard](Logistic_Dashboard.PNG)
-![Customer Experience](Customer_Dashboard.PNG)
+## 📷 Dashboard Overview
+
+### 1. Financial Performance
+![Financial Dashboard](assets/finance_dashboard.png)
+
+### 2. Logistics & Operations
+![Logistics Dashboard](assets/logistic.png)
+
+### 3. Customer Experience
+![Customer Experience Dashboard](assets/customer.png)
+
 ---
 
 ## Repository Structure
@@ -46,10 +58,10 @@ Created a report structured around three key business areas:
 | `data_raw/` | Raw Olist CSV datasets |
 | `notebooks/` | Exploratory data analysis & step-by-step ETL logic |
 | `scripts/` | Automated Python ETL script & DB configuration |
+| `assets/` | Dashboard screenshots and image assets |
 | `Olist_Analytics_Dashboard.pbix` | Power BI interactive report |
 
 ---
-
 How to Run and Explore the Project Locally
 Follow these step-by-step instructions to set up the environment, run the pipeline, and explore the complete analysis:
 
