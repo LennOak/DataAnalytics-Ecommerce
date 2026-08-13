@@ -31,15 +31,6 @@ Created a report structured around three key business areas:
 
 ---
 
-## Learnings & Next Steps
-Building this project helped me realize that **data analytics is not just about creating pretty charts, but about solving real business problems**.
-
-**Areas I want to improve in future iterations:**
-* Write stored procedures inside SQL Server to automate data refreshes.
-* Implement unit testing within the Python pipeline.
-
----
-
 How to Run and Explore the Project Locally
 Follow these step-by-step instructions to set up the environment, run the pipeline, and explore the complete analysis:
 
