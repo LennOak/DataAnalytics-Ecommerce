@@ -41,13 +41,13 @@ Created an executive report structured around three key business areas:
 ## 📷 Dashboard Overview
 
 ### 1. Financial Performance
-![Financial Dashboard](images/finance_dashboard.png)
+![Financial Dashboard](images/Finance_Dashboard.PNG)
 
 ### 2. Logistics & Operations
-![Logistics Dashboard](images/logistic.png)
+![Logistics Dashboard](images/Logistic_Dashboard.PNG)
 
 ### 3. Customer Experience
-![Customer Experience Dashboard](images/customer.png)
+![Customer Experience Dashboard](images/Customer_Dashboard.PNG)
 
 ---
 
@@ -68,9 +68,9 @@ Follow these step-by-step instructions to set up the environment, run the pipeli
 ### 1. Prerequisites & Environment Setup
 1. Clone the Repository:
 git clone (https://github.com/LennOak/DataAnalytics-Ecommerce).git
-cd DataAnalytics-Ecommerce
+2. cd DataAnalytics-Ecommerce
 
-2. Set Up a Virtual Environment (Recommended):
+3. Set Up a Virtual Environment (Recommended):
 python -m venv venv
 
 On Windows:
@@ -79,7 +79,7 @@ venv\Scripts\activate
 On Mac/Linux:
 source venv/bin/activate
 
-3. Install Dependencies:
+4. Install Dependencies:
 pip install -r requirements.txt
 
 ### 2. Database Configuration (SQL Server)
