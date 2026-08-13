@@ -64,7 +64,7 @@ Created an executive report structured around three key business areas:
 ![Logistics Dashboard](Logistic_Dashboard.PNG)
 
 ### 3. Customer Experience
-![Customer Experience Dashboard](Customer_Dashboard.PNG)
+![Customer Experience Dashboard](Customers_Dashboard.PNG)
 
 ---
 
