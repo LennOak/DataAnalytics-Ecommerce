@@ -43,12 +43,12 @@ Building this project helped me realize that **data analytics is not just about 
 How to Run and Explore the Project Locally
 Follow these step-by-step instructions to set up the environment, run the pipeline, and explore the complete analysis:
 
-# ##1. Prerequisites & Environment Setup
-Clone the Repository:
+###1. Prerequisites & Environment Setup
+1. Clone the Repository:
 git clone (https://github.com/LennOak/DataAnalytics-Ecommerce).git
 cd DataAnalytics-Ecommerce
 
-Set Up a Virtual Environment (Recommended):
+2. Set Up a Virtual Environment (Recommended):
 python -m venv venv
 
 On Windows:
@@ -57,50 +57,50 @@ venv\Scripts\activate
 On Mac/Linux:
 source venv/bin/activate
 
-Install Dependencies:
+3. Install Dependencies:
 pip install -r requirements.txt
 
-# ##2. Database Configuration (SQL Server)
-Ensure SQL Server and SQL Server Management Studio (SSMS) (or Azure Data Studio / DBeaver) are installed and running.
+###2. Database Configuration (SQL Server)
+1. Ensure SQL Server and SQL Server Management Studio (SSMS) (or Azure Data Studio / DBeaver) are installed and running.
 
-Create a local database named Olist_Analytics.
+2. Create a local database named Olist_Analytics.
 
-Configure your connection parameters inside scripts/config.py (or via environment variables) to point to your local SQL Server instance:
+3. Configure your connection parameters inside scripts/config.py (or via environment variables) to point to your local SQL Server instance:
 SERVER = 'config.DB_SERVER'
 DATABASE = 'config.DB_NAME'
 DRIVER = 'ODBC Driver 17 for SQL Server'
 
-# ##3. Run the Automated ETL Pipeline
-Ensure the raw Olist CSV datasets are located inside the data_raw/ directory.
+###3. Run the Automated ETL Pipeline
+1. Ensure the raw Olist CSV datasets are located inside the data_raw/ directory.
 
-Execute the main Python ETL script to clean data, engineer metrics, and load processed tables into SQL Server:
+2. Execute the main Python ETL script to clean data, engineer metrics, and load processed tables into SQL Server:
 python scripts/etl_pipeline.py
 
-Alternatively, open Jupyter Notebook to inspect the transformation logic step-by-step:
+3. Alternatively, open Jupyter Notebook to inspect the transformation logic step-by-step:
 jupyter notebook notebooks/01_data_cleaning_etl.ipynb
 
-# ##4. Verify Database Records
-Open your SQL client (SSMS) and connect to Olist_Analytics.
+###4. Verify Database Records
+1. Open your SQL client (SSMS) and connect to Olist_Analytics.
 
-Run a quick validation query to confirm table creation and data loading:
+2. Run a quick validation query to confirm table creation and data loading:
 SELECT TOP 10 * FROM vw_fact_orders;
 
-# ##5. Access the Power BI Dashboard
-Install Power BI Desktop.
+###5. Access the Power BI Dashboard
+1. Install Power BI Desktop.
 
-Open the file Olist_Analytics_Dashboard.pbix located in the repository.
+2. Open the file Olist_Analytics_Dashboard.pbix located in the repository.
 
-Rebind Data Source (If Prompted):
+3. Rebind Data Source (If Prompted):
 
-Go to Transform Data > Data Source Settings.
+4. Go to Transform Data > Data Source Settings.
 
-Select the local SQL Server data source and click Change Source.
+5. Select the local SQL Server data source and click Change Source.
 
-Update the Server and Database names to match your local setup.
+6.Update the Server and Database names to match your local setup.
 
-Click Apply Changes and Refresh to populate the report.
+7. Click Apply Changes and Refresh to populate the report.
 
-Explore the interactive pages to test dynamic cross-filtering and rank-1 conditional highlighting.
+8. Explore the interactive pages to test dynamic cross-filtering and rank-1 conditional highlighting.
 
 ---
 
