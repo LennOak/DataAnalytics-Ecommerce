@@ -1,4 +1,4 @@
-# Olist E-Commerce Analytics: From Raw Data to Insights
+# Olist E-Commerce Analytics
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
