@@ -41,15 +41,21 @@ Created an executive report structured around three key business areas:
 
 ---
 
-## Key Findings & Business Insights
+## Key Findings & Business Recommendations
 
+### Core Insights
 * **Financial Impact:** Freight accounts for **16.57%** of total company revenue ($2.25M out of $13.59M), signaling an opportunity to renegotiate carrier contracts.
 * **Logistics Bottleneck:** While the overall delay rate is 6.45%, late deliveries suffer an average delay of **10.5 days past the estimated delivery date**. The states facing the highest delay rates are **BA, RJ, and ES**.
 * **Customer Impact:** The data confirms a strong correlation between delivery delays and 1-star / 2-star reviews.
 
+### Actionable Business Recommendations
+1. **Carrier Renegotiation:** Re-evaluate SLA contracts and shipping rates with carriers operating in high-delay regions (BA, RJ, ES).
+2. **Seller Dispatch Monitoring:** Implement automated alerts for sellers exceeding the expected dispatch timeframe to reduce initial order processing time.
+3. **Proactive Retention:** Offer automated retention vouchers to customers experiencing delays exceeding 3 days to mitigate negative review scores.
+
 ---
 
-## 📷 Dashboard Overview
+## Dashboard Overview
 
 ### 1. Financial Performance
 ![Financial Dashboard](Finance_Dashboard.PNG)
@@ -69,7 +75,7 @@ Created an executive report structured around three key business areas:
 | `data_raw/` | Raw Olist CSV datasets |
 | `notebooks/` | Exploratory data analysis & step-by-step ETL logic |
 | `scripts/` | Automated Python ETL script & DB configuration |
-| `assets/` | Dashboard screenshots and image assets |
+| `images/` | Dashboard screenshots and image assets |
 | `Olist_Analytics_Dashboard.pbix` | Power BI interactive report |
 
 ---
