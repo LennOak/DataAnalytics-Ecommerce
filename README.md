@@ -34,9 +34,9 @@ Created a report structured around three key business areas:
 
 ## Dashboard Overview
 
-![Finance Dashboard](https://1drv.ms/i/c/487ca23884765fb8/IQB9mrRPcz6kRq-uAibBWkU7ARF_G7n8sWmScE3DEcAYzU4?e=OaOeRa)
-![Logistics Dashboard](https://1drv.ms/i/c/487ca23884765fb8/IQDOdyLlbajsSpIXtYhyImoBATRAaQ_9mAnaNp5qT7WZdI8?e=imWP3y)
-![Customer Experience](https://1drv.ms/i/c/487ca23884765fb8/IQDUTANEQ3OjS7fiwodM9W5QAWkyn4T8Ovstco1FQClGeAY?e=8nxcey)
+![Finance Dashboard](Finance_Dashboard.PNG)
+![Logistics Dashboard](Logistic_Dashboard.PNG)
+![Customer Experience](Customer_Dashboard.PNG)
 ---
 
 ## Repository Structure
