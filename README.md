@@ -73,7 +73,7 @@ Created an executive report structured around three key business areas:
 | Directory / File | Description |
 | :--- | :--- |
 | `data_raw/` | Raw Olist CSV datasets |
-| `notebooks/` | Exploratory data analysis & step-by-step ETL logic |
+| `notebooks/` | Exploratory data analysis & ETL logic |
 | `scripts/` | Automated Python ETL script & DB configuration |
 | `images/` | Dashboard screenshots and image assets |
 | `Olist_Analytics_Dashboard.pbix` | Power BI interactive report |
