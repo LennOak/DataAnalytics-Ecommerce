@@ -104,19 +104,19 @@ pip install -r requirements.txt
 
 2. Create a local database named Olist_Analytics.
 
-3. Configure your connection parameters inside scripts/config.py (or via environment variables) to point to your local SQL Server instance:
-SERVER = 'config.DB_SERVER'
-DATABASE = 'config.DB_NAME'
+3. Configure your connection parameters inside src/config.py (or via environment variables) to point to your local SQL Server instance:
+SERVER = 'Olist_Analytics'
+DATABASE = 'Olist_Analytics'
 DRIVER = 'ODBC Driver 17 for SQL Server'
 
 ### 3. Run the Automated ETL Pipeline
 1. Ensure the raw Olist CSV datasets are located inside the data_raw/ directory.
 
 2. Execute the main Python ETL script to clean data, engineer metrics, and load processed tables into SQL Server:
-python scripts/etl_pipeline.py
+python src/ecommerce.ipynb
 
-3. Alternatively, open Jupyter Notebook to inspect the transformation logic step-by-step:
-jupyter notebook notebooks/01_data_cleaning_etl.ipynb
+3. Alternatively, open Jupyter Notebook to inspect the transformation logic:
+jupyter notebook src/ecommerce.ipynb
 
 ### 4. Verify Database Records
 1. Open your SQL client (SSMS) and connect to Olist_Analytics.
