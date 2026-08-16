@@ -1,5 +1,5 @@
 --------------------
--- Finance querry
+-- Finance Query
 --------------------
 
 -- Financial Analysis 01: Performance by Payment Type
