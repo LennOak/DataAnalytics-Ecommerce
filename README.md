@@ -87,7 +87,7 @@ Follow these step-by-step instructions to set up the environment, run the pipeli
 git clone (https://github.com/LennOak/DataAnalytics-Ecommerce).git
 2. cd DataAnalytics-Ecommerce
 
-3. Set Up a Virtual Environment (Recommended):
+3. Set Up a Virtual Environment:
 python -m venv venv
 
 On Windows:
