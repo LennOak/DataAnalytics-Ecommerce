@@ -97,8 +97,8 @@ SELECT
 	geolocation_zip_code_prefix AS zip_code_key,
 	AVG(geolocation_lat) AS latitude,
 	AVG(geolocation_lng) AS longitude,
-	UPPER(MAX(geolocation_city)) AS city,  -- Standardized aggregation for SQL Server compatibility
-	UPPER(MAX(geolocation_state)) AS state  -- Standardized aggregation for SQL Server compatibility
+	UPPER(MAX(geolocation_city)) AS city,  
+	UPPER(MAX(geolocation_state)) AS state
 FROM olist_geolocation_dataset
 GROUP BY geolocation_zip_code_prefix;
 GO
