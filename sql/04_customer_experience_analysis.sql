@@ -4,32 +4,32 @@
 
 -- Customer Experience Analysis 01: Review Score Distribution
 -- Objective: Analyze overall customer satisfaction by calculating review counts, total share percentage, and average rating across score levels.
-select 
+SELECT 
 	review_score,
 	COUNT(review_id) AS total_reviews,
 	ROUND(COUNT(review_id) * 100.0 / NULLIF(SUM(COUNT(review_id)) OVER(), 0), 2) AS review_share_pct
-from olist_order_reviews_dataset
-group by review_score
-order by review_score DESC;
+FROM olist_order_reviews_dataset
+GROUP BY review_score
+ORDER BY review_score DESC;
 
--- Customer Experience Analysis 03: Review Scores by Product Category
+-- Customer Experience Analysis 02: Review Scores by Product Category
 -- Objective: Identify top and bottom product categories based on average customer review score and review volume.
-select 
+SELECT
 	p.product_category_name,
 	COUNT(DISTINCT r.review_id) AS total_reviews,
-	ROUND(AVG(ROUND(r.review_score, 2)), 2) AS avg_review_score
-from olist_order_items_dataset i
-inner join olist_products_dataset p on i.product_id = p.product_id
-inner join olist_order_reviews_dataset r on i.order_id = r.order_id
-where p.product_category_name is not null
-group by p.product_category_name
-having COUNT(DISTINCT r.review_id) >= 50
-order by avg_review_score DESC;
+	ROUND(AVG(r.review_score), 2) AS avg_review_score
+FROM olist_order_items_dataset i
+INNER JOIN olist_products_dataset p ON i.product_id = p.product_id
+INNER JOIN olist_order_reviews_dataset r ON i.order_id = r.order_id
+WHERE p.product_category_name IS NOT NULL
+GROUP BY p.product_category_name
+HAVING COUNT(DISTINCT r.review_id) >= 50
+ORDER BY avg_review_score DESC;
 
--- Customer Experience Analysis 04: Customer Response Time Metrics
+-- Customer Experience Analysis 03: Customer Response Time Metrics
 -- Objective: Measure feedback processing speed by calculating average days between review creation and response answer date.
-select 
-	ROUND(AVG(ROUND(DATEDIFF(day, review_creation_date, review_answer_timestamp), 2)), 2) AS avg_response_time_days,
+SELECT
+	ROUND(AVG(DATEDIFF(day, review_creation_date, review_answer_timestamp)), 2) AS avg_response_time_days,
 	COUNT(review_id) AS total_answered_reviews
-from olist_order_reviews_dataset
-where review_answer_timestamp is not null;
+FROM olist_order_reviews_dataset
+WHERE review_answer_timestamp IS NOT NULL;
