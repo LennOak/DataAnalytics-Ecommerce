@@ -145,5 +145,5 @@ SELECT TOP 10 * FROM vw_fact_orders;
 
 ## Author
 
-* **LinkedIn:** [Visit my profile]([https://linkedin.com](https://www.linkedin.com/in/eduardo-carvalho-b19681306/)
+* **LinkedIn:** [Visit my profile]([https://linkedin.com](https://www.linkedin.com/in/eduardo-carvalho-b19681306/))
 * **Email:** ec.eduardocarvalho14@gmail.com
