@@ -103,7 +103,10 @@ On Windows: `venv/Scripts/activate`
 
 On Mac/Linux: `source venv/bin/activate`
 
-4. Install Dependencies: pip install -r requirements.txt
+4. Install Dependencies:
+```bash
+pip install -r requirements.txt
+```
 
 ### 2. Database Configuration (SQL Server)
 1. Ensure SQL Server and SQL Server Management Studio (SSMS) (or Azure Data Studio / DBeaver) are installed and running.
