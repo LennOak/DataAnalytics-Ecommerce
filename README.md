@@ -110,7 +110,7 @@ DRIVER = 'ODBC Driver 17 for SQL Server'
 1. Ensure the raw Olist CSV datasets are located inside the data_raw/ directory.
 
 2. Open Jupyter Notebook to inspect and run the transformation logic:
-3. jupyter notebook src/ecommerce.ipynb
+jupyter notebook src/ecommerce.ipynb
 
 ### 4. Verify Database Records
 1. Open your SQL client (SSMS) and connect to Olist_Analytics.
