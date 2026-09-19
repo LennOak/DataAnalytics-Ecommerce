@@ -84,9 +84,20 @@ Follow these step-by-step instructions to set up the environment, run the pipeli
 
 ### 1. Prerequisites & Environment Setup
 
-1. Clone the Repository: git clone https://github.com/LennOak/DataAnalytics-Ecommerce.git
-2. cd DataAnalytics-Ecommerce
-3. Set Up a Virtual Environment: python -m venv venv
+1. Clone the Repository:
+```bash
+git clone https://github.com/LennOak/DataAnalytics-Ecommerce.git
+```
+
+2. Navigate to the project folder:
+```bash
+cd DataAnalytics-Ecommerce
+```
+
+3. Set Up a Virtual Environment:
+```bash
+python -m venv venv
+```
 
 On Windows: `venv/Scripts/activate`
 
@@ -110,7 +121,9 @@ DRIVER = 'ODBC Driver 17 for SQL Server'
 1. Ensure the raw Olist CSV datasets are located inside the data_raw/ directory.
 
 2. Open Jupyter Notebook to inspect and run the transformation logic:
+```bash
 jupyter notebook src/ecommerce.ipynb
+```
 
 ### 4. Verify Database Records
 1. Open your SQL client (SSMS) and connect to Olist_Analytics.
