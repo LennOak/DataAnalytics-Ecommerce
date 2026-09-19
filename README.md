@@ -83,21 +83,15 @@ Created an executive report structured around three key business areas:
 Follow these step-by-step instructions to set up the environment, run the pipeline, and explore the complete analysis:
 
 ### 1. Prerequisites & Environment Setup
-1. Clone the Repository:
-git clone (https://github.com/LennOak/DataAnalytics-Ecommerce).git
+
+1. Clone the Repository: git clone https://github.com/LennOak/DataAnalytics-Ecommerce
 2. cd DataAnalytics-Ecommerce
+3. Set Up a Virtual Environment: python -m venv venv
 
-3. Set Up a Virtual Environment:
-python -m venv venv
+On Windows: venv/Scripts/activate
+On Mac/Linux: source venv/bin/activate
 
-On Windows:
-venv\Scripts\activate
-
-On Mac/Linux:
-source venv/bin/activate
-
-4. Install Dependencies:
-pip install -r requirements.txt
+4. Install Dependencies: pip install -r requirements.txt
 
 ### 2. Database Configuration (SQL Server)
 1. Ensure SQL Server and SQL Server Management Studio (SSMS) (or Azure Data Studio / DBeaver) are installed and running.
