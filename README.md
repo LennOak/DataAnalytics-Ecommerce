@@ -84,12 +84,12 @@ Follow these step-by-step instructions to set up the environment, run the pipeli
 
 ### 1. Prerequisites & Environment Setup
 
-1. Clone the Repository: git clone https://github.com/LennOak/DataAnalytics-Ecommerce
+1. Clone the Repository: git clone https://github.com/LennOak/DataAnalytics-Ecommerce.git
 2. cd DataAnalytics-Ecommerce
 3. Set Up a Virtual Environment: python -m venv venv
 
-On Windows: venv/Scripts/activate
-On Mac/Linux: source venv/bin/activate
+On Windows: `venv/Scripts/activate`
+On Mac/Linux: `source venv/bin/activate`
 
 4. Install Dependencies: pip install -r requirements.txt
 
@@ -99,9 +99,11 @@ On Mac/Linux: source venv/bin/activate
 2. Create a local database named Olist_Analytics.
 
 3. Configure your connection parameters inside src/config.py (or via environment variables) to point to your local SQL Server instance:
+```python
 SERVER = 'Olist_Analytics'
 DATABASE = 'Olist_Analytics'
 DRIVER = 'ODBC Driver 17 for SQL Server'
+```
 
 ### 3. Run the Automated ETL Pipeline
 1. Ensure the raw Olist CSV datasets are located inside the data_raw/ directory.
