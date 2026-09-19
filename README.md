@@ -106,11 +106,8 @@ DRIVER = 'ODBC Driver 17 for SQL Server'
 ### 3. Run the Automated ETL Pipeline
 1. Ensure the raw Olist CSV datasets are located inside the data_raw/ directory.
 
-2. Execute the main Python ETL script to clean data, engineer metrics, and load processed tables into SQL Server:
-python src/ecommerce.ipynb
-
-3. Alternatively, open Jupyter Notebook to inspect the transformation logic:
-jupyter notebook src/ecommerce.ipynb
+2. Open Jupyter Notebook to inspect and run the transformation logic:
+3. jupyter notebook src/ecommerce.ipynb
 
 ### 4. Verify Database Records
 1. Open your SQL client (SSMS) and connect to Olist_Analytics.
