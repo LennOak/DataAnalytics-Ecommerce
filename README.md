@@ -73,8 +73,8 @@ Created an executive report structured around three key business areas:
 | Directory / File | Description |
 | :--- | :--- |
 | `data_raw/` | Raw Olist CSV datasets |
-| `src/` | Exploratory data analysis & ETL logic |
-| `sql/` | Automated Python ETL script & DB configuration |
+| `src/` | Automated Python ETL script, configurations, and exploratory data analysis |
+| `sql/` | SQL Server scripts for dimensional modeling (Star Schema) and business analysis |
 | `power_bi/` | Dashboard screenshots and Power BI interactive report |
 
 ---
