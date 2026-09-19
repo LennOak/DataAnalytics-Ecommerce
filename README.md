@@ -89,6 +89,7 @@ Follow these step-by-step instructions to set up the environment, run the pipeli
 3. Set Up a Virtual Environment: python -m venv venv
 
 On Windows: `venv/Scripts/activate`
+
 On Mac/Linux: `source venv/bin/activate`
 
 4. Install Dependencies: pip install -r requirements.txt
